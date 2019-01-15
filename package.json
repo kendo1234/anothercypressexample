@@ -1,0 +1,14 @@
+{
+  "name": "cypressiosetup",
+  "version": "1.0.0",
+  "description": "A simple tutorial project for setting up cypress.io UI testing framework ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.4"
+  }
+}
