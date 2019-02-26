@@ -11,7 +11,5 @@ phases:
       - echo "pre_build step"
   build:
     commands:
-      - node_modules/.bin/cypress run --record --key 6cfe6dd4-9b4e-4a88-8188-1f068ce67dd0
-  post_build:
-    commands:
+      - node_modules/.bin/cypress run 
       - echo "post_build step"
